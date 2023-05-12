@@ -33,13 +33,13 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#portfolio"
-          onClick={() => handlePageChange('portfolio')}
+          href="#myWork"
+          onClick={() => handlePageChange('MyWork')}
           //  TODO: Add a comment explaining what this logic is doing
           //This logic is checking to see if the currentPage is equal to 'Blog'.
-          className={currentPage === 'portfolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'MyWork' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          My Work
         </a>
       </li>
       <li className="nav-item">
