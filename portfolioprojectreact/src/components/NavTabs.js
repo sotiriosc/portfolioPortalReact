@@ -6,13 +6,11 @@ import '../styles/NavTab.css';
 // We are able to extract the key value pairs from props by using the curly braces and the key name.
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header class='header'>
-      <div>
-        <h1>Sotirios Chortogiannos</h1>
-
-       
+    <header className='header'>
+      <div className="content">
+        <h1 className='myName'>Sotirios Chortogiannos</h1>
       
-    <ul className="navTabs">
+        <ul className="navTabs">
       <li className="pageBtn">
         <a
           href="#home"
@@ -49,9 +47,12 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-    </ul>
-    </div>
-    <img src={selfimg} alt="Sotirios Chortogiannos" class="image" />
+      </ul>
+      </div>
+      <div>
+      <p id="floating-text">Digital Creations!!</p>
+      </div>
+      <img src={selfimg} alt="Sotirios Chortogiannos" className="image" />
     </header>
   );
 }
