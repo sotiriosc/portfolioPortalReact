@@ -21,7 +21,7 @@ export default function Home() {
           <p>That's why I love to learn. The breadth of tools and resources we can acquire by utilizing our minds unlocks our potential and empowers us to overcome any challenges we may face. Furthermore, learning also fosters our self-awareness. As we grow more knowledgeable, we can assess ourselves with greater precision. This, in turn, allows us to better evaluate our position in relation to our goals, so we can enhance our talents and skills to reach success.</p>
           <p>I am a person engulfed with passion. My high motivation and thirst for learning further amplify this passion. This was evident when I started my own business to serve my community during the pandemic. I launched a business, www.healthyandtasty.ca, and throughout the pandemic, I successfully delivered thousands of orders all on my own. I was responsible for every aspect of the business - from creating the website and sourcing products to processing orders and handling fulfillment. To this day, my customers still reach out to me, wondering when I will resume operations!</p>
         </div>
-        <div style={{ width: '70%' }}>
+        <div style={{ width: '60%' }}>
         <div className='one'>
         <img src={mango} alt="mango" className="image1"/>
         <img src={peach} alt="peach" className="image2"/>

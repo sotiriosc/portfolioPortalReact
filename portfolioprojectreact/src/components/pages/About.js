@@ -26,6 +26,9 @@ export default function About() {
         these principles to more areas and contributing to the enrichment of ourselves, our peers, and our environment. The essence of life, after all, 
         is about growth and enrichment.
         </p>
+        <a href="http://link-to-your-resume.com/resume.pdf" download>
+        <button className='resumeButton'>Download My Resume</button>
+      </a>
       </div>
     </div>
   );

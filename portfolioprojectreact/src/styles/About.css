@@ -10,3 +10,23 @@
 .aboutPar {
     margin-left:40px;
 }
+
+.resumeButton {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.resumeButton:hover {
+    background-color: rgb(43, 124, 216);
+    color: black;
+}
