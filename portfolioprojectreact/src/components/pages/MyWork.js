@@ -20,16 +20,44 @@ export default function MyWork() {
         <p>
           Here you will find some of my work displayed for you to see. 
         </p>
-        <ul>Current Computer Language Knowledge:
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>SQL</li>
-        <li>MongoDB</li>
-        <li>React</li>
-        <li>MERN</li>
+        <p>Current Computer Language Knowledge:</p>
+        <ul>
+        <li>
+        <label>HTML</label>
+        <meter value="0.9" min="0" max="1">90%</meter>
+        </li>
+        <li>
+        <label>CSS</label>
+        <meter value="0.8" min="0" max="1">80%</meter>
+        </li>
+        <li>
+        <label>JavaScript</label>
+        <meter value="0.85" min="0" max="1">85%</meter>
+        </li>
+        <li>
+        <label>Node.js</label>
+        <meter value="0.7" min="0" max="1">70%</meter>
+        </li>
+        <li>
+        <label>Express.JS</label>
+        <meter value="0.7" min="0" max="1">80%</meter>
+        </li>
+        <li>
+        <label>SQL</label>
+        <meter value="0.85" min="0" max="1">85%</meter>
+        </li>
+        <li>
+        <label>MongoDB</label>
+        <meter value="0.7" min="0" max="1">70%</meter>
+        </li>
+        <li>
+        <label>React</label>
+       <meter value="0.7" min="0" max="1">80%</meter>
+       </li>
+       <li>
+       <label>MERN</label>
+       <meter value="0.7" min="0" max="1">85%</meter>
+       </li>
         </ul>
         <p className='ptag'>Navigate the carousel to view my projects, if you would like to visit my project click the image. The repositories for all my projects can be found at <a href="https://github.com/sotiriosc?tab=repositories">https://github.com/sotiriosc?tab=repositories</a></p>
       </div>
