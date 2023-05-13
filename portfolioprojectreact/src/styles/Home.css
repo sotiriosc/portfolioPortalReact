@@ -1,18 +1,21 @@
-/* I need the .welcome text centered? */
 .home {
     margin: 20px;
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
 }
 
 .welcome {
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .firstSec {
     display: flex;
     justify-content: center;
     width: 60%;
-   
 }
