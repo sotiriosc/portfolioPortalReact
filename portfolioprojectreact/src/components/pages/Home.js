@@ -3,7 +3,6 @@ import '../../styles/Home.css';
 import peach from '../../assets/images/peach.jpg';
 import mango from '../../assets/images/mango.jpg';
 import grape from '../../assets/images/grape.jpg';
-import order from '../../assets/images/order.jpg';
 import orders from '../../assets/images/orders.jpg';
 import sumo from '../../assets/images/sumo.jpg';
 import tomato from '../../assets/images/tomato.jpg';

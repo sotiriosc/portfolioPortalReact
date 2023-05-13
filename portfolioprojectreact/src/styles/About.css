@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     margin-left: 40px;
-    font-size: 20px;
     width: 60%;
 }
 
@@ -15,7 +14,7 @@
     padding: 10px 20px;
     margin-top: 20px;
     border: none;
-    background-color: #4CAF50; /* Green */
+    background-color: rgb(234, 169, 18); /* Green */
     color: white;
     text-align: center;
     text-decoration: none;
@@ -24,9 +23,11 @@
     font-weight: bolder;
     transition-duration: 0.4s;
     cursor: pointer;
+    border-radius: 90px;
+    border: black 2px solid;
 }
 
 .resumeButton:hover {
-    background-color: rgb(43, 124, 216);
+    background-color: #4CAF50;
     color: black;
 }
