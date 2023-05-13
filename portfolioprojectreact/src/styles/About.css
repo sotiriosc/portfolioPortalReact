@@ -1,0 +1,12 @@
+.about {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    font-size: 20px;
+    width: 60%;
+}
+
+.aboutPar {
+    margin-left:40px;
+}

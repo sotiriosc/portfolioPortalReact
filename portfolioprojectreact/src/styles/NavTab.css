@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between; 
     height: 150px;
-    background-color: rgb(169, 205, 43);
+    background-color: rgb(35, 88, 200);
   }
   
   .content {
@@ -25,25 +25,27 @@
   .pageBtn {
     display: flex;
     align-items: baseline;
-    background-color: bisque;
-    padding: 6px;
-    border-radius: 30%;
+    background-color: rgb(234, 169, 18);
+    padding: 5px;
+    border-radius: 18%;
     border: black 2px solid;
     font-weight: bolder;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.65);
     margin-bottom: 5px;
+    color: rgb(255, 255, 255);
   }
   
   .image {
     height: 150px;
     margin-right: 20px;
     margin-top: 20px;
+    margin-left: 5px;
     box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.65);
     border-radius: 20%;
   }
   
   .myName {
-    margin-left: 60px;
+    margin-left: 50px;
   }
 
   #floating-text {
@@ -77,3 +79,5 @@
       display: none;
     }
   }
+
+  

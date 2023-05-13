@@ -59,7 +59,7 @@ export default function MyWork() {
        <meter value="0.7" min="0" max="1">85%</meter>
        </li>
         </ul>
-        <p className='ptag'>Navigate the carousel to view my projects, if you would like to visit my project click the image. The repositories for all my projects can be found at <a href="https://github.com/sotiriosc?tab=repositories">https://github.com/sotiriosc?tab=repositories</a></p>
+        <p className='ptag'>Navigate the carousel below to view my projects, if you would like to visit the project, click the image. The repositories for all my projects can be found at <a href="https://github.com/sotiriosc?tab=repositories">https://github.com/sotiriosc?tab=repositories</a></p>
       </div>
       
       <div>
