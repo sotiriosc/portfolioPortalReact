@@ -1,0 +1,38 @@
+.myWorkCon {
+    margin-left: 20px;
+}
+.carousel-root {
+    width: 50%; 
+    margin: auto; 
+    margin-bottom: 50px;
+  }
+
+  
+
+  .carousel .thumbs-wrapper {
+    margin: 0; 
+  }
+  
+  .carousel .slide img {
+    
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  .carousel .control-arrow {
+    font-size: 30px;
+  
+}
+
+
+.carousel .slide .legend {
+    font-size: 20px;
+   
+}
+.ptag {
+    margin-top: 10px;
+    justify-self: auto;
+  }
+
+  
