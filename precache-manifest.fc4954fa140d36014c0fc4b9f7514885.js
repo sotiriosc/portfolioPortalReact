@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "37ac2a8043e0caac1ae5",
-    "url": "/sotiriosc/portfolioPortalReact/static/css/main.a94055db.chunk.css"
+    "revision": "be6d86d0067844a242c8",
+    "url": "/sotiriosc/portfolioPortalReact/static/css/main.33fb7a95.chunk.css"
   },
   {
-    "revision": "37ac2a8043e0caac1ae5",
-    "url": "/sotiriosc/portfolioPortalReact/static/js/main.37ac2a80.chunk.js"
+    "revision": "be6d86d0067844a242c8",
+    "url": "/sotiriosc/portfolioPortalReact/static/js/main.be6d86d0.chunk.js"
   },
   {
-    "revision": "c8218068c20377719002",
-    "url": "/sotiriosc/portfolioPortalReact/static/css/1.4ef52dde.chunk.css"
+    "revision": "292bc77902f9c4475deb",
+    "url": "/sotiriosc/portfolioPortalReact/static/css/1.9d05efdf.chunk.css"
   },
   {
-    "revision": "c8218068c20377719002",
-    "url": "/sotiriosc/portfolioPortalReact/static/js/1.c8218068.chunk.js"
+    "revision": "292bc77902f9c4475deb",
+    "url": "/sotiriosc/portfolioPortalReact/static/js/1.292bc779.chunk.js"
   },
   {
     "revision": "25d81103eacbf2156a32",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/sotiriosc/portfolioPortalReact/static/media/revved.1fafedab.png"
   },
   {
-    "revision": "32a778fc31102283e31502ff60004460",
+    "revision": "9ebda9f346e50a3e3553c15709516027",
     "url": "/sotiriosc/portfolioPortalReact/index.html"
   }
 ];
