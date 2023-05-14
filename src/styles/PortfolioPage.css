@@ -2,12 +2,30 @@
     margin: 20px;
 }
 .carousel-root {
-    width: 40%; 
-    margin: auto; 
-    margin-bottom: 150px;
-  }
+  width: 40%; 
+  margin: auto; 
+  margin-bottom: 150px;
+  border: 3px solid #333; 
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+  transition: transform 2s; 
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
 
+/* CSS to make carousel slide into position */
+@keyframes slideInFromLeft {
+0% {
+  transform: translateX(-100%);
+}
+100% {
+  transform: translateX(0);
+}
+}
 
+.projectImage {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
 
   .carousel .thumbs-wrapper {
     margin: 0; 
@@ -20,10 +38,11 @@
     margin: 0 auto; 
   }
   
-  .carousel .control-arrow {
-    font-size: 30px;
+  .carouselButton {
+    width: 100px;
   
 }
+
 
 
 .carousel .slide .legend {

@@ -27,7 +27,19 @@ export default function MyWork() {
       </div>
       
       <div>
-        <Carousel>
+        
+        
+      <Carousel
+  axis={'horizontal'}
+  emulateTouch={true}
+  infiniteLoop={true}
+  useKeyboardArrows={true}
+  labels={{
+    leftArrow: 'Previous slide',
+    rightArrow: 'Next slide',
+    item: 'Slide item'
+  }}
+>
           {projects.map((project, index) => (
             <div key={index}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">

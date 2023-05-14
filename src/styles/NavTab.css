@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia&effect=neon|fire|emboss|shadow-multiple');
-
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
 .header {
     display: flex;
     justify-content: space-between; 
     height: 150px;
     background-color: rgb(35, 88, 200);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
   .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* This will push the h1 to the top and navTabs to the bottom */
-    height: 100%; /* This is necessary to ensure flex items are spread across the full height */
+    justify-content: space-between; 
   }
   
   .navTabs {
@@ -20,8 +20,13 @@
     justify-content: space-between;
     list-style: none;
     align-items: baseline;
+    padding: 0 20px;
   }
   
+  .navTabs li {
+    margin: 0 10px; 
+  }
+
   .pageBtn {
     display: flex;
     align-items: baseline;
@@ -33,6 +38,12 @@
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.65);
     margin-bottom: 5px;
     color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+  }
+
+  .pageBtn:hover {
+    background-color: rgb(255, 209, 69); /* change color on hover */
+    cursor: pointer; /* change cursor to pointer on hover */
   }
   
   .image {
@@ -46,7 +57,13 @@
   
   .myName {
     margin-left: 50px;
+    font-family: 'times', neon;
+    text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #060606, 0 0 0.4em #f7f, 0 0 0.6em #f0f, 0 0 0.8em #00f, 0 0 1.0em #00f, 0 0 1.2em #00f, 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 4.5rem; 
   }
+  
+  
 
   #floating-text {
     margin-top: 10px;

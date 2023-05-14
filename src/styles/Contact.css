@@ -54,3 +54,51 @@
         width: 90%;
     }
 }
+
+.modal {
+    display: flex !important; /* Add this line */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    animation: fadeIn 1s;
+}
+
+.modalBtn {
+    background-color: rgb(234, 169, 18);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 90px;
+    padding: 10px;
+    font-size: 15px;
+}
+  
+.modalContent {
+    background-color: rgb(101, 154, 240);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+input.valid, textarea.valid {
+    background-color: lightgreen;
+  }
+  
+  input.invalid, textarea.invalid {
+    background-color: lightcoral;
+  }
+  
