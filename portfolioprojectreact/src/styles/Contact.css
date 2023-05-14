@@ -1,5 +1,6 @@
 .contact {
-    margin-top: 65px
+    height: 100vh;
+    margin-top: 100px
 }
 .contactForm {
     display: flex;
@@ -14,6 +15,7 @@
     border-radius: 16%;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.65);
     background-color: rgb(99, 192, 246);
+
 }
 
 .contactForm label {

@@ -1,9 +1,10 @@
 .about {
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-left: 60px;
     display: flex;
     justify-content: center;
-    margin-left: 40px;
-    width: 60%;
+    width: 50%;
+    height: 70vh;
 }
 
 .aboutPar {

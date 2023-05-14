@@ -1,11 +1,23 @@
 /* Footer.css */
 .footer {
     width: 100%;
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     bottom: 0;
     text-align: center;
     background-color: rgb(35, 88, 200);
     color: white;
-    padding: 10px 0;
+   
   }
   
+  .footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 250px; /* adjust this to set the spacing between the icons */
+  }
+  
+  .footer-icon {
+    color: white;
+  }
