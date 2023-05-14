@@ -5,13 +5,13 @@ import mango from '../../assets/images/mango.jpg';
 import grape from '../../assets/images/grape.jpg';
 import orders from '../../assets/images/orders.jpg';
 import sumo from '../../assets/images/sumo.jpg';
-import tomato from '../../assets/images/tomato.jpg';
+import selfimg from '../../assets/images/selfimg.jpg';
 
 export default function Home() {
   return (
     <div className='home'>
       <div>
-        <h1 className='welcome'>Welcome</h1>
+        <h1 className='welcome'>Welcome!!!</h1>
       </div>
       <div className='firstSec'>
         <div style={{ width: '50%' }}>
@@ -30,7 +30,7 @@ export default function Home() {
         <div className='two'>
         
         <img src={sumo} alt="sumo citrus" className="image4"/>
-        <img src={tomato} alt="tomato" className="image5"/>
+        <img src={selfimg} alt="tomato" className="image5"/>
         <img src={orders} alt="orders" className="image6"/>
         </div>
         </div>

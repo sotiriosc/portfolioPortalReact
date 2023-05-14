@@ -61,9 +61,13 @@
     text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #060606, 0 0 0.4em #f7f, 0 0 0.6em #f0f, 0 0 0.8em #00f, 0 0 1.0em #00f, 0 0 1.2em #00f, 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: #fff;
     font-size: 4.5rem; 
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
   }
   
-  
+  .myName.show {
+    opacity: 1;
+  }
 
   #floating-text {
     margin-top: 10px;
@@ -97,4 +101,15 @@
     }
   }
 
+  .navTabs .nav-link.active {
+    background-color: #fff; /* Change the background color */
+    color: #000; /* Change the text color */
+    font-weight: bold; /* Add font weight or customize it */
+    border-radius: 10px; /* Add border radius or customize it */
+  }
   
+  @keyframes fadeIn {
+    100% {
+      opacity: 1;
+    }
+  }

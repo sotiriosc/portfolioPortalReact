@@ -1,14 +1,42 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import selfimg from '../assets/images/selfimg.jpg';
 import '../styles/NavTab.css';
 
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
-// We are able to extract the key value pairs from props by using the curly braces and the key name.
 function NavTabs({ currentPage, handlePageChange }) {
+  const [nameLetters, setNameLetters] = useState([]);
+  const name = 'Sotirios Chortogiannos';
+
+  useEffect(() => {
+    const delay = 150; // Delay between each letter in milliseconds
+    const letters = name.split('');
+
+    let timeout = null;
+    let index = 0;
+
+    const addLetter = () => {
+      setNameLetters(prevLetters => [...prevLetters, letters[index]]);
+      index++;
+
+      if (index < letters.length) {
+        timeout = setTimeout(addLetter, delay);
+      }
+    };
+
+    timeout = setTimeout(addLetter, delay);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
-    <header className='header'>
+    <header className="header">
       <div className="content">
-        <h1 className='myName'>Sotirios Chortogiannos</h1>
+        <h1 className="myName">
+          {nameLetters.map((letter, index) => (
+            <span key={index} className="nameLetter">
+              {letter}
+            </span>
+          ))}
+        </h1>
       
         <ul className="navTabs">
       <li className="pageBtn">
