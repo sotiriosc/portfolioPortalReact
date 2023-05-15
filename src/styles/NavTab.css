@@ -42,8 +42,8 @@
   }
 
   .pageBtn:hover {
-    background-color: rgb(255, 209, 69); /* change color on hover */
-    cursor: pointer; /* change cursor to pointer on hover */
+    background-color: rgb(255, 209, 69); 
+    cursor: pointer;
   }
   
   .image {

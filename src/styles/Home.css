@@ -57,7 +57,16 @@
     .image1, .image2, .image3, .image4, .image5, .image6 {
         margin: none;
     }
-}
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        width: 80px; /* Adjust the width as needed */
+        height: 80px; /* Adjust the height as needed */
+        margin: 5px; /* Adjust the margin as needed */
+      }
+    
+      .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover {
+        transform: scale(3); /* Adjust the scale factor as needed */
+      }
+    }
 
 @keyframes fadeIn {
     from {opacity: 0;}

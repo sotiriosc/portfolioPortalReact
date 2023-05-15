@@ -28,6 +28,7 @@
     border-radius: 90px;
     border: black 2px solid;
     margin-bottom: 30px;
+    
 }
 
 .resumeButton:hover {
@@ -38,7 +39,11 @@
 
 @media (max-width: 900px) {
     .about {
-        height: 120vh;
+       
+        width: 80%;
+    }
+    .resumeButton {
+        width: 200px;
     }
  }
   
