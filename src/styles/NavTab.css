@@ -100,7 +100,7 @@
       display: none;
     }
     .header {
-    
+      height: 175px;
       font-size: 10px;
       width: 100vw;
     }
