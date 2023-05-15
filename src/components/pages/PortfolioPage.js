@@ -24,10 +24,9 @@ export default function MyWork() {
         </p>
         
         <p className='ptag'>Navigate the carousel below to view my projects, if you would like to visit the project, click the image. The repositories for all my projects can be found at <a href="https://github.com/sotiriosc?tab=repositories">https://github.com/sotiriosc?tab=repositories</a></p>
-      </div>
+     
       
       <div>
-        
         
       <Carousel
   axis={'horizontal'}
@@ -50,7 +49,7 @@ export default function MyWork() {
           ))}
         </Carousel>
     
-       
+        </div>
       </div>
     </>
   );

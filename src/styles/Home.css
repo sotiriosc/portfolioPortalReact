@@ -10,7 +10,6 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-bottom: 50px;
     animation: fadeIn 2s;
     font-size: 4rem;
 }
@@ -47,9 +46,16 @@
     .firstSec {
         flex-direction: column;
         align-items: center;
+        width: 140%
     }
-    .home {
-        height: 100vh;
+    .h2Title {
+        display: none;
+    }
+    .aboutPar  {
+      width: 100%;
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        margin: none;
     }
 }
 
@@ -67,8 +73,14 @@
 }
 
 .aboutPar p {
+    display: flex;
+    align-items: center;
     transition: background-color 0.3s ease-in-out;
+    width: 60%;
+    margin: auto;  
+    margin-bottom: 20px;
 }
+
 
 .aboutPar p:hover {
     background-color: #f0f0f0;

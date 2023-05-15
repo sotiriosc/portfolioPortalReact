@@ -1,16 +1,18 @@
 /* Footer.css */
+/* Footer.css */
 .footer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
-    text-align: center;
-    background-color: rgb(35, 88, 200);
-    color: white;
-   
-  }
+  width: 100%;
+  position: sticky; /* add this line */
+  bottom: 0; /* add this line */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(35, 88, 200);
+  color: white;
+}
+
   
   .footer-icons {
     display: flex;
@@ -20,4 +22,14 @@
   
   .footer-icon {
     color: white;
+  }
+
+  @media (max-width: 768px) {
+    .footer {
+      height: 80px;
+    }
+    .footer-icons {
+      width: 90%;
+      size: .5rem;
+    }
   }

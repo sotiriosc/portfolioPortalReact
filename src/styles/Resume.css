@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     width: 50%;
-    height: 70vh;
+    height: 100vh;
+    
 }
 
 .aboutPar {
@@ -26,6 +27,7 @@
     cursor: pointer;
     border-radius: 90px;
     border: black 2px solid;
+    margin-bottom: 30px;
 }
 
 .resumeButton:hover {
@@ -36,7 +38,7 @@
 
 @media (max-width: 768px) {
     .about {
-        height: 100vh;
+        height: 120vh;
     }
  }
   

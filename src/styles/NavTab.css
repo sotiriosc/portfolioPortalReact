@@ -100,9 +100,13 @@
       display: none;
     }
     .header {
-      height: 275px;
+    
       font-size: 10px;
       width: 100vw;
+    }
+    .myName {
+      font-size: 2.5rem;
+      margin-top: 30px;
     }
     .image {
       display: none;

@@ -8,13 +8,13 @@ function Footer() {
       <p>Copyright &copy; {new Date().getFullYear()} Sotirios Chortogiannos</p>
       <div className="footer-icons">
         <a href="https://github.com/sotiriosc?tab=repositories" target="_blank" rel="noopener noreferrer">
-          <FaGithub size={60} color="white" className="footer-icon" />
+          <FaGithub size={40} color="white" className="footer-icon" />
         </a>
         <a href="https://www.linkedin.com/in/sotirios-chortogiannos-668b76272/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin size={60} color="white" className="footer-icon" />
+          <FaLinkedin size={40} color="white" className="footer-icon" />
         </a>
         <a href="https://twitter.com/chortogiannos" target="_blank" rel="noopener noreferrer">
-          <FaTwitter size={60} color="white" className="footer-icon" />
+          <FaTwitter size={40} color="white" className="footer-icon" />
         </a>
       </div>
     </footer>
