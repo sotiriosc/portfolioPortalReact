@@ -53,6 +53,9 @@
     .contactForm {
         width: 90%;
     }
+    .contact {
+        height: 100vh;
+    }
 }
 
 .modal {

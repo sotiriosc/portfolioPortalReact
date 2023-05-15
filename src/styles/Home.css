@@ -48,6 +48,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .home {
+        height: 100vh;
+    }
 }
 
 @keyframes fadeIn {

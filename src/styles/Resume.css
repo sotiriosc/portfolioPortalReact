@@ -32,3 +32,11 @@
     background-color: #4CAF50;
     color: black;
 }
+
+
+@media (max-width: 768px) {
+    .about {
+        height: 100vh;
+    }
+ }
+  
