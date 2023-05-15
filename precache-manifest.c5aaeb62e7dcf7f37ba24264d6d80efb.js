@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "25164f5cdf52b429c0bf",
-    "url": "/portfolioPortalReact/static/css/main.2f6cbfd4.chunk.css"
+    "revision": "89b387f589ce8ff890f7",
+    "url": "/portfolioPortalReact/static/css/main.0b990046.chunk.css"
   },
   {
-    "revision": "25164f5cdf52b429c0bf",
-    "url": "/portfolioPortalReact/static/js/main.25164f5c.chunk.js"
+    "revision": "89b387f589ce8ff890f7",
+    "url": "/portfolioPortalReact/static/js/main.89b387f5.chunk.js"
   },
   {
-    "revision": "e31e3efff8ca24e40561",
-    "url": "/portfolioPortalReact/static/css/1.1c8a3f93.chunk.css"
+    "revision": "0ebd147e741914dce5bc",
+    "url": "/portfolioPortalReact/static/css/1.10af14fd.chunk.css"
   },
   {
-    "revision": "e31e3efff8ca24e40561",
-    "url": "/portfolioPortalReact/static/js/1.e31e3eff.chunk.js"
+    "revision": "0ebd147e741914dce5bc",
+    "url": "/portfolioPortalReact/static/js/1.0ebd147e.chunk.js"
   },
   {
     "revision": "7746465d28bfad5919da",
@@ -60,7 +60,19 @@ self.__precacheManifest = [
     "url": "/portfolioPortalReact/static/media/revved.1fafedab.png"
   },
   {
-    "revision": "0c2332737ab803bbd54056007c17079b",
+    "revision": "9df515ac4030c58c5d0eccd7f7f0ccfb",
+    "url": "/portfolioPortalReact/static/media/balanced.9df515ac.png"
+  },
+  {
+    "revision": "0550d28ccce6fe55a35cc83901fa9b26",
+    "url": "/portfolioPortalReact/static/media/sql.0550d28c.png"
+  },
+  {
+    "revision": "6755394621f984d05ba3c60b0bf7fb36",
+    "url": "/portfolioPortalReact/static/media/mongo.67553946.png"
+  },
+  {
+    "revision": "833543d5cc85af65005f806846ade5be",
     "url": "/portfolioPortalReact/index.html"
   }
 ];
