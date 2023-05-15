@@ -49,7 +49,7 @@
     background-color: #4CAF50;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .contactForm {
         width: 90%;
         margin-bottom: 390px;

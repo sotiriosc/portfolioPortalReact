@@ -54,7 +54,7 @@
     justify-self: auto;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .carousel-root {
         width: 95%; 
         margin: auto; 

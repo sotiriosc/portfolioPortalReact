@@ -36,7 +36,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .about {
         height: 120vh;
     }
