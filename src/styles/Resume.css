@@ -1,9 +1,9 @@
 .about {
-    margin-top: 80px;
+    margin-bottom: 120px;
     margin-left: 60px;
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 70%;
     height: 100vh;
     
 }
@@ -46,4 +46,23 @@
         width: 200px;
     }
  }
+
+ @media (max-width: 900px), (orientation: landscape) {
+    .about {
+       
+        width: 80%;
+    }
+    .resumeButton {
+        width: 200px;
+    }
+}
+
+    .about {
+       
+        width: 80%;
+    }
+    .resumeButton {
+        width: 200px;
+    }
+ 
   

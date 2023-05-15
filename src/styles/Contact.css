@@ -1,6 +1,6 @@
 .contact {
-    height: 100vh;
-    margin-top: 100px
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .contactForm {
     display: flex;
@@ -52,11 +52,16 @@
 @media (max-width: 900px) {
     .contactForm {
         width: 90%;
-        margin-bottom: 390px;
     }
-    .contact {
-        margin-bottom: 150px;
+
+}
+
+@media (max-width: 900px), (orientation: landscape) {
+    .contactForm {
+        width: 90%;
+       
     }
+  
 }
 
 .modal {

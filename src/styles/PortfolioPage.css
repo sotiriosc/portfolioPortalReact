@@ -67,7 +67,12 @@
         margin: auto; 
         margin-bottom: 50px;
       }
-      .myWorkCon {
-        height: 100vh;
+  }
+
+  @media (max-width: 900px), (orientation: landscape) {
+    .carousel-root {
+        width: 95%; 
+        margin: auto; 
+        margin-bottom: 50px;
       }
   }
