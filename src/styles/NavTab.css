@@ -58,7 +58,7 @@
   .myName {
     margin-left: 50px;
     font-family: 'times', neon;
-    text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #060606, 0 0 0.4em #f7f, 0 0 0.6em #f0f, 0 0 0.8em #00f, 0 0 1.0em #00f, 0 0 1.2em #00f, 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #060606, 0 0 0.4em rgb(74, 149, 230), 0 0 0.6em rgb(16, 63, 138), 0 0 0.8em rgb(32, 32, 162), 0 0 1.0em rgb(25, 18, 175), 0 0 1.2em #00f, 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: #fff;
     font-size: 4.5rem; 
     opacity: 0;
@@ -99,11 +99,19 @@
     #floating-text {
       display: none;
     }
+    .header {
+      height: 275px;
+      font-size: 10px;
+      width: 100vw;
+    }
+    .image {
+      display: none;
+    }
   }
 
   .navTabs .nav-link.active {
-    background-color: #fff; /* Change the background color */
-    color: #000; /* Change the text color */
+    background-color: rgb(89, 136, 238);; /* Change the background color */
+    color: #ffff; /* Change the text color */
     font-weight: bold; /* Add font weight or customize it */
     border-radius: 10px; /* Add border radius or customize it */
   }
