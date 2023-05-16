@@ -56,7 +56,7 @@
 
 }
 
-@media (max-width: 900px), (orientation: landscape) {
+@media (max-width: 900px), (orientation: landscape) and (max-height: 500px) {
     .contactForm {
         width: 90%;
        

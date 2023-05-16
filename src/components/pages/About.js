@@ -14,27 +14,28 @@ export default function Home() {
         <h1 className='welcome'>Welcome!!!</h1>
       </div>
       <div className='firstSec'>
-        <div style={{ width: '40%' }}>
-          <h3 className='h2Title'>Intro:</h3>
+        
+      <div style={{ width: '50%', '@media (max-width: 600px)': { width: '100%' } }}>
+          <h3 className='h1Title'>Intro:</h3>
           <p>Welcome to my personal portfolio. This space is a curated collection of my experiences, achievements, and professional pursuits. My approach to life and work is deeply rooted in the power of the mind, the transformative influence of thought, and the belief that there are no unsolvable problems, only untried solutions.</p>
           <p>My zest for learning is a natural extension of this philosophy. Every nugget of knowledge we gather, every skill we hone, is a tool to unlock potential and navigate challenges. Learning fosters self-awareness, allowing us to assess our abilities and ambitions with clarity and precision. It's this understanding that equips us to continuously refine our talents and chart a course towards success.</p>
           <p>Passion is the heartbeat of all I do. My high motivation and unquenchable thirst for learning are the fuel to this fire. This was evident when I single-handedly established my own business, www.healthyandtasty.ca, to serve my community during the pandemic. The business was my brainchild and baby—I was responsible for everything from website creation and product sourcing to order processing and fulfillment. Despite the hiatus, customers still inquire about its return—an affirmation of the impact and success of my initiative.</p>
           <p>Buoyed by this success, I decided to dive into a new challenge and returned to school to become a full-stack software developer.</p>
         </div>
-        <div style={{ width: '50%' }}>
+        <div style={{ width: '40%', '@media (max-width: 600px)': { width: '100%' } }}>
         <div className='one'>
         <img src={mango} alt="mango" className="image1"/>
         <img src={peach} alt="peach" className="image2"/>
         <img src={grape} alt="grape" className="image3"/>
         </div>
         <div className='two'>
-        
         <img src={sumo} alt="sumo citrus" className="image4"/>
         <img src={selfimg} alt="tomato" className="image5"/>
         <img src={orders} alt="orders" className="image6"/>
         </div>
         </div>
         </div>
+        
     
       <div className='aboutPar'>
         <h3 className='h2Title'>About Me:</h3>

@@ -111,9 +111,10 @@
     .image {
       display: none;
     }
+    
   }
 
-    @media (max-width: 900px), (orientation: landscape) {
+  @media (max-width: 900px), (orientation: landscape) and (max-height: 500px) {
     #floating-text {
       display: none;
     }
@@ -132,10 +133,10 @@
   }
 
   .navTabs .nav-link.active {
-    background-color: rgb(89, 136, 238);; /* Change the background color */
-    color: #ffff; /* Change the text color */
-    font-weight: bold; /* Add font weight or customize it */
-    border-radius: 10px; /* Add border radius or customize it */
+    background-color: rgb(89, 136, 238);; 
+    color: #ffff; 
+    font-weight: bold; 
+    border-radius: 10px; 
   }
   
   @keyframes fadeIn {

@@ -4,9 +4,8 @@ import resume from '../../assets/files/Myresume.docx';
 
 export default function About() {
   return (
-    <div className='about'>
-      <h2>Skills:</h2>
-      <div className='aboutPar'>
+    <div className='resumeCont'>
+      <h2 className=' resumeH2'>Skills:</h2>
         
       <p>Current Computer Language Knowledge:</p>
         <ul>
@@ -51,6 +50,5 @@ export default function About() {
         <button className='resumeButton'>Download My Resume</button>
       </a>
       </div>
-    </div>
   );
 }

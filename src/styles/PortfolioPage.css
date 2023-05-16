@@ -4,7 +4,7 @@
 .carousel-root {
   width: 40%; 
   margin: auto; 
-  margin-bottom: 150px;
+  margin-bottom: 20px;
   border: 3px solid #333; 
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
   transition: transform 2s; 
@@ -19,12 +19,6 @@
 100% {
   transform: translateX(0);
 }
-}
-
-.projectImage {
-  object-fit: fill;
-  width: 100%;
-  height: 100%;
 }
 
   .carousel .thumbs-wrapper {
@@ -69,7 +63,7 @@
       }
   }
 
-  @media (max-width: 900px), (orientation: landscape) {
+  @media (max-width: 900px), (orientation: landscape) and (max-height: 500px) {
     .carousel-root {
         width: 95%; 
         margin: auto; 
