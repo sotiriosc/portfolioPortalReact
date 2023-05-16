@@ -53,6 +53,7 @@
 .ptag {
     margin-top: 10px;
     justify-self: auto;
+    margin-right: 250px;
   }
 
   @media (max-width: 900px) {
@@ -60,6 +61,9 @@
         width: 95%; 
         margin: auto; 
         margin-bottom: 50px;
+      }
+      .ptag {
+        margin:10px;
       }
   }
 
@@ -69,4 +73,8 @@
         margin: auto; 
         margin-bottom: 50px;
       }
+      .ptag {
+        margin:10px;
+      }
   }
+  

@@ -31,10 +31,12 @@ export default function MyWork() {
       <div className='myWorkCon'>
         <h2>My Work</h2>
         <p>
-          Here you will find some of my work displayed for you to see. 
+        Welcome to my portfolio! I'm excited to share some of my work with you
         </p>
         
-        <p className='ptag'>Navigate the carousel below to view my projects, if you would like to visit the project, click the image. If you would like to visit the repository of a project, click the bottom below the carousel!</p>
+        <p className='ptag'>Use the carousel below to browse through my projects. If a project piques your interest, simply click on the image to visit the project site. Want a peek under the hood? Click the button beneath the carousel to access the repository of any project.
+
+Enjoy exploring, and don't hesitate to reach out if you have any questions!</p>
      
       
       <div>
