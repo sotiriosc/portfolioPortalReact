@@ -1,88 +1,43 @@
-import React, { useEffect, useState } from 'react';
-import selfimg from '../assets/images/selfimg.jpg';
-import '../styles/NavTab.css';
+// This code imports necessary components and styles for the PortfolioContainer component.
+import React, { useState } from 'react';
+import NavTabs from './NavTabs';
+import About from './pages/About';
+import Resume from './pages/Resume';
+import PortfolioPage from './pages/PortfolioPage';
+import Contact from './pages/Contact';
+import Footer from './Footer';
+import '../styles/PortfolioContainer.css';
 
-function NavTabs({ currentPage, handlePageChange }) {
-  const [nameLetters, setNameLetters] = useState([]);
-  const name = 'Sotirios Chortogiannos';
-
-  useEffect(() => {
-    const delay = 150; // Delay between each letter in milliseconds
-    const letters = name.split('');
-
-    let timeout = null;
-    let index = 0;
-
-    const addLetter = () => {
-      setNameLetters(prevLetters => [...prevLetters, letters[index]]);
-      index++;
-
-      if (index < letters.length) {
-        timeout = setTimeout(addLetter, delay);
-      }
-    };
-
-    timeout = setTimeout(addLetter, delay);
-
-    return () => clearTimeout(timeout);
-  }, []);
-
+// This code exports a function called PortfolioContainer as the default export of this module.
+export default function PortfolioContainer() {
+  // This code initializes a state variable called currentPage with the value 'About'.
+  const [currentPage, setCurrentPage] = useState('About');
+  
+  // This code defines a function called renderPage that returns a component based on the value of currentPage.
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    if (currentPage === 'PortfolioPage') {
+      return <PortfolioPage />;
+    }
+    return <Contact />;
+  };
+  
+  // This code defines a function called handlePageChange that updates the value of currentPage to the provided page argument.
+  const handlePageChange = (page) => setCurrentPage(page);
+  
+  // This code returns a JSX element that renders the NavTabs, mainContent, and Footer components.
   return (
-    <header className="header">
-      <div className="content">
-        <h1 className="myName">
-          {nameLetters.map((letter, index) => (
-            <span key={index} className="nameLetter">
-              {letter}
-            </span>
-          ))}
-        </h1>
-      
-        <ul className="navTabs">
-          <li className={currentPage === 'About' ? 'pageBtn active' : 'pageBtn'}>
-            <a
-              href="#about"
-              onClick={() => handlePageChange('About')}
-              className="nav-link"
-            >
-              About Me!
-            </a>
-          </li>
-          <li className={currentPage === 'PortfolioPage' ? 'pageBtn active' : 'pageBtn'}>
-            <a
-              href="#portfolioPage"
-              onClick={() => handlePageChange('PortfolioPage')}
-              className="nav-link"
-            >
-              Portfolio
-            </a>
-          </li>
-          <li className={currentPage === 'Resume' ? 'pageBtn active' : 'pageBtn'}>
-            <a
-              href="#resume"
-              onClick={() => handlePageChange('Resume')}
-              className="nav-link"
-            >
-              Resume
-            </a>
-          </li>
-          <li className={currentPage === 'Contact' ? 'pageBtn active' : 'pageBtn'}>
-            <a
-              href="#contact"
-              onClick={() => handlePageChange('Contact')}
-              className="nav-link"
-            >
-              Contact
-            </a>
-          </li>
-        </ul>
+    <div>
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div className='mainContent'>
+        {renderPage()}
       </div>
-      <div>
-        <p id="floating-text">Digital Creations!!</p>
-      </div>
-      <img src={selfimg} alt="Sotirios Chortogiannos" className="image" />
-    </header>
+      <Footer />
+    </div>
   );
 }
-
-export default NavTabs;
