@@ -1,10 +1,10 @@
 {
-  "main.css": "/portfolioPortalReact/static/css/main.89767727.chunk.css",
-  "main.js": "/portfolioPortalReact/static/js/main.7c178f8f.chunk.js",
-  "main.js.map": "/portfolioPortalReact/static/js/main.7c178f8f.chunk.js.map",
+  "main.css": "/portfolioPortalReact/static/css/main.e53a9404.chunk.css",
+  "main.js": "/portfolioPortalReact/static/js/main.f1bf83b7.chunk.js",
+  "main.js.map": "/portfolioPortalReact/static/js/main.f1bf83b7.chunk.js.map",
   "static/css/1.10af14fd.chunk.css": "/portfolioPortalReact/static/css/1.10af14fd.chunk.css",
-  "static/js/1.0ebd147e.chunk.js": "/portfolioPortalReact/static/js/1.0ebd147e.chunk.js",
-  "static/js/1.0ebd147e.chunk.js.map": "/portfolioPortalReact/static/js/1.0ebd147e.chunk.js.map",
+  "static/js/1.ec2abd7a.chunk.js": "/portfolioPortalReact/static/js/1.ec2abd7a.chunk.js",
+  "static/js/1.ec2abd7a.chunk.js.map": "/portfolioPortalReact/static/js/1.ec2abd7a.chunk.js.map",
   "runtime~main.js": "/portfolioPortalReact/static/js/runtime~main.7746465d.js",
   "runtime~main.js.map": "/portfolioPortalReact/static/js/runtime~main.7746465d.js.map",
   "static/media/selfimg.jpg": "/portfolioPortalReact/static/media/selfimg.0c5ca68c.jpg",
@@ -20,9 +20,9 @@
   "static/media/balanced.png": "/portfolioPortalReact/static/media/balanced.9df515ac.png",
   "static/media/sql.png": "/portfolioPortalReact/static/media/sql.0550d28c.png",
   "static/media/mongo.png": "/portfolioPortalReact/static/media/mongo.67553946.png",
-  "static/css/main.89767727.chunk.css.map": "/portfolioPortalReact/static/css/main.89767727.chunk.css.map",
   "static/css/1.10af14fd.chunk.css.map": "/portfolioPortalReact/static/css/1.10af14fd.chunk.css.map",
+  "static/css/main.e53a9404.chunk.css.map": "/portfolioPortalReact/static/css/main.e53a9404.chunk.css.map",
   "index.html": "/portfolioPortalReact/index.html",
-  "precache-manifest.cfcadc5b80bcdd7b93abcfd006a25696.js": "/portfolioPortalReact/precache-manifest.cfcadc5b80bcdd7b93abcfd006a25696.js",
+  "precache-manifest.eb99dfae0d07c6b02684ff6c4b923d79.js": "/portfolioPortalReact/precache-manifest.eb99dfae0d07c6b02684ff6c4b923d79.js",
   "service-worker.js": "/portfolioPortalReact/service-worker.js"
 }
