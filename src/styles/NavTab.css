@@ -144,3 +144,8 @@
       opacity: 1;
     }
   }
+
+  .pageBtn.active {
+    background-color: rgb(132, 167, 243);
+    /* Additional styles for active .pageBtn */
+  }

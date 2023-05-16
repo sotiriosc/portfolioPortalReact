@@ -39,46 +39,46 @@ function NavTabs({ currentPage, handlePageChange }) {
         </h1>
       
         <ul className="navTabs">
-      <li className="pageBtn">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About Me!
-        </a>
-      </li>
-      <li className="pageBtn">
-        <a
-          href="#portfolioPage"
-          onClick={() => handlePageChange('PortfolioPage')}
-          className={currentPage === 'PortfolioPage' ? 'nav-link active' : 'nav-link'}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="pageBtn">
-        <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </a>
-      </li>
-      <li className="pageBtn">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-      </ul>
+          <li className={currentPage === 'About' ? 'pageBtn active' : 'pageBtn'}>
+            <a
+              href="#about"
+              onClick={() => handlePageChange('About')}
+              className="nav-link"
+            >
+              About Me!
+            </a>
+          </li>
+          <li className={currentPage === 'PortfolioPage' ? 'pageBtn active' : 'pageBtn'}>
+            <a
+              href="#portfolioPage"
+              onClick={() => handlePageChange('PortfolioPage')}
+              className="nav-link"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li className={currentPage === 'Resume' ? 'pageBtn active' : 'pageBtn'}>
+            <a
+              href="#resume"
+              onClick={() => handlePageChange('Resume')}
+              className="nav-link"
+            >
+              Resume
+            </a>
+          </li>
+          <li className={currentPage === 'Contact' ? 'pageBtn active' : 'pageBtn'}>
+            <a
+              href="#contact"
+              onClick={() => handlePageChange('Contact')}
+              className="nav-link"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
       </div>
       <div>
-      <p id="floating-text">Digital Creations!!</p>
+        <p id="floating-text">Digital Creations!!</p>
       </div>
       <img src={selfimg} alt="Sotirios Chortogiannos" className="image" />
     </header>
@@ -86,4 +86,3 @@ function NavTabs({ currentPage, handlePageChange }) {
 }
 
 export default NavTabs;
-
