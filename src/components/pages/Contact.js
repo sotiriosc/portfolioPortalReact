@@ -11,34 +11,36 @@ export default function Contact() {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalMessage, setModalMessage] = useState('');
 
-  // Using useRef to store whether modal has been shown
   const modalShown = useRef({name: false, email: false, message: false});
 
   const handleInputChange = (e) => {
-    let isValid;
-    if (e.target.name === 'email') {
-      isValid = validateEmail(e.target.value);
-      if (!isValid && !modalShown.current.email) {
-        openModal('Input must be a valid email address');
-        modalShown.current.email = true;
-      }
-    } else {
-      isValid = !!e.target.value;
-      if (!isValid && !modalShown.current[e.target.name]) {
-        openModal('This field requires 1 or more characters');
-        modalShown.current[e.target.name] = true;
-      }
-    }
     setForm(prevForm => ({ ...prevForm, 
-      [e.target.name]: e.target.value, 
-      [`${e.target.name}Valid`]: isValid,
+      [e.target.name]: e.target.value,
       [`${e.target.name}Touched`]: true 
     }));
   };
   
   const handleInputBlur = (e) => {
-    handleInputChange(e);
+    let isValid;
+    if (e.target.name === 'email') {
+      isValid = validateEmail(e.target.value);
+    } else {
+      // For 'name' and 'message' fields, checking if at least one character is present
+      isValid = e.target.value.trim().length > 0;
+    }
+  
+    if (!isValid && !modalShown.current[e.target.name]) {
+      const errorMessage = e.target.name === 'email' ? 'Input must be a valid email address' : 'This field requires 1 or more characters';
+      openModal(errorMessage);
+      modalShown.current[e.target.name] = true;
+    }
+  
+    setForm(prevForm => ({ ...prevForm, 
+      [`${e.target.name}Valid`]: isValid
+    }));
   };
+  
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
