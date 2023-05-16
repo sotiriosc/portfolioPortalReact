@@ -95,7 +95,7 @@
   }
   
   
-  @media (max-width: 600px) {
+  @media (max-width: 900px) {
     #floating-text {
       display: none;
     }
@@ -114,7 +114,7 @@
     
   }
 
-  @media (max-width: 600px), (orientation: landscape) and (max-height: 500px) {
+  @media (max-width: 900px), (orientation: landscape) and (max-height: 500px) {
     #floating-text {
       display: none;
     }
