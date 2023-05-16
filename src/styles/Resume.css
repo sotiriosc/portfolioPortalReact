@@ -1,7 +1,7 @@
 
 .resumeCont {
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 250px;
     height: 800px;
 }
 
@@ -31,6 +31,22 @@
 .resumeButton:hover {
     background-color: #4CAF50;
     color: black;
+}
+
+@media (max-width: 600px), (orientation: landscape) and (max-height: 500px) {
+    .resumeCont {
+        margin-left: 50px;
+       
+    }
+  
+}
+
+@media (max-width: 600px) {
+    .resumeCont {
+        margin-left: 50px;
+       
+    }
+
 }
 
    
