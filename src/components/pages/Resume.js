@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/Resume.css';
-import resume from '../../assets/files/Myresume.docx';
+import resume from '../../assets/files/Myresumeroughdraft.docx';
 
 export default function About() {
   return (
