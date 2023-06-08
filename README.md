@@ -8,7 +8,7 @@
 
 ### Motivation
 
-To create a website to showcase my ailities.
+To create a website to showcase my abilities.
 
 ### Build
 
