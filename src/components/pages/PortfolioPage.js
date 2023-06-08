@@ -5,7 +5,7 @@ import project1 from '../../assets/images/project1.png';
 import project2 from '../../assets/images/project2.png';
 import project3 from '../../assets/images/revved.png';
 import balanced from '../../assets/images/balanced.png';  
-import sql from '../../assets/images/sql.png';
+import wg from '../../assets/images/WiseGuide-screenshot1.png';
 import mongo from '../../assets/images/mongo.png';
 import '../../styles/PortfolioPage.css'
 
@@ -16,7 +16,7 @@ export default function MyWork() {
     {name: "JATE - EXPRESS, JAVASCRIPT" , img: project2, url: "https://glacial-atoll-39751.herokuapp.com/", repo: "https://github.com/sotiriosc/personalTextEditor-PWA"},
     {name: "Revved-Up_reviews - HANDLEBARS, JAVASCRIPT, CSS, SQL" , img: project3, url: "https://protected-meadow-94073.herokuapp.com/", repo: "https://github.com/sotiriosc/Revved-Up_reviews"},
     {name: "Balanced Blueprint Blog - HTML, JAVASCRIPT, CSS," , img: balanced, url: "https://www.balancedblueprint.ca/", repo: "https://github.com/sotiriosc/balancedblueprintblog"},
-    {name: "Mern - AI Tutor" , img: sql, url: "https://wiseguide.herokuapp.com/search", repo: "https://github.com/sotiriosc/wg-studentTutor"},
+    {name: "Mern - AI Tutor" , img: wg, url: "https://wiseguide.herokuapp.com/search", repo: "https://github.com/sotiriosc/wg-studentTutor"},
     {name: "SocialNetworkAPI - MONGODB, EXPRESS JS, NODE" , img: mongo, url: "https://drive.google.com/file/d/1M5j52i_tyNYNYGV5UjPCnJe78XG-G_FW/view?usp=share_link", repo: "https://github.com/sotiriosc/SocialNetworkApi-MongoDB"},
   ];
 
