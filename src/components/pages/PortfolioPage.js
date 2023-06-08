@@ -1,43 +1,74 @@
-// This code imports necessary components and styles for the PortfolioContainer component.
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import PortfolioPage from './pages/PortfolioPage';
-import Contact from './pages/Contact';
-import Footer from './Footer';
-import '../styles/PortfolioContainer.css';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import project1 from '../../assets/images/project1.png';
+import project2 from '../../assets/images/project2.png';
+import project3 from '../../assets/images/revved.png';
+import balanced from '../../assets/images/balanced.png';  
+import sql from '../../assets/images/sql.png';
+import mongo from '../../assets/images/mongo.png';
+import '../../styles/PortfolioPage.css'
 
-// This code exports a function called PortfolioContainer as the default export of this module.
-export default function PortfolioContainer() {
-  // This code initializes a state variable called currentPage with the value 'About'.
-  const [currentPage, setCurrentPage] = useState('About');
-  
-  // This code defines a function called renderPage that returns a component based on the value of currentPage.
-  const renderPage = () => {
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
-    if (currentPage === 'PortfolioPage') {
-      return <PortfolioPage />;
-    }
-    return <Contact />;
-  };
-  
-  // This code defines a function called handlePageChange that updates the value of currentPage to the provided page argument.
-  const handlePageChange = (page) => setCurrentPage(page);
-  
-  // This code returns a JSX element that renders the NavTabs, mainContent, and Footer components.
+export default function MyWork() {
+
+  const projects = [
+    {name: "Workout Buddy - HTML, CSS, JAVASCRIPT", img: project1, url: "https://utgroup7.github.io/workout-buddy/", repo: "https://github.com/utgroup7/workout-buddy"},
+    {name: "JATE - EXPRESS, JAVASCRIPT" , img: project2, url: "https://glacial-atoll-39751.herokuapp.com/", repo: "https://github.com/sotiriosc/personalTextEditor-PWA"},
+    {name: "Revved-Up_reviews - HANDLEBARS, JAVASCRIPT, CSS, SQL" , img: project3, url: "https://protected-meadow-94073.herokuapp.com/", repo: "https://github.com/sotiriosc/Revved-Up_reviews"},
+    {name: "Balanced Blueprint Blog - HTML, JAVASCRIPT, CSS," , img: balanced, url: "https://www.balancedblueprint.ca/", repo: "https://github.com/sotiriosc/balancedblueprintblog"},
+    {name: "Mern - AI Tutor" , img: sql, url: "https://wiseguide.herokuapp.com/search", repo: "https://github.com/sotiriosc/wg-studentTutor"},
+    {name: "SocialNetworkAPI - MONGODB, EXPRESS JS, NODE" , img: mongo, url: "https://drive.google.com/file/d/1M5j52i_tyNYNYGV5UjPCnJe78XG-G_FW/view?usp=share_link", repo: "https://github.com/sotiriosc/SocialNetworkApi-MongoDB"},
+  ];
+
+  const [selectedProject, setSelectedProject] = useState(projects[0]);
+
+  const handleSelect = (selectedIndex) => {
+    setSelectedProject(projects[selectedIndex]);
+  }
+
   return (
-    <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div className='mainContent'>
-        {renderPage()}
+    <>
+      <div className='myWorkCon'>
+        <h2>My Work</h2>
+        <p>
+        Welcome to my portfolio! I'm excited to share some of my work with you
+        </p>
+        
+        <p className='ptag'>Use the carousel below to browse through my projects. If a project piques your interest, simply click on the image to visit the project site. Want a peek under the hood? Click the button beneath the carousel to access the repository of any project.
+
+Enjoy exploring, and don't hesitate to reach out if you have any questions!</p>
+     
+      
+      <div>
+        
+      <Carousel
+  axis={'horizontal'}
+  emulateTouch={true}
+  infiniteLoop={true}
+  useKeyboardArrows={true}
+  labels={{
+    leftArrow: 'Previous slide',
+    rightArrow: 'Next slide',
+    item: 'Slide item'
+  }}
+  onChange={handleSelect}
+>
+          {projects.map((project, index) => (
+            <div key={index}>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <img src={project.img} alt={project.name} className='projectImage'/>
+              </a>
+              <p className="legend">{project.name}</p>
+            </div>
+          ))}
+        </Carousel>
+
+        <a href={selectedProject.repo} target="_blank" rel="noopener noreferrer">
+          <button className='repoBtn'>Go to Repository</button>
+        </a>
+    
+        </div>
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
