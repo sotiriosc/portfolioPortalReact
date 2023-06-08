@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "525d4e87a4097f06e8b3",
-    "url": "/portfolioPortalReact/static/css/main.949a145d.chunk.css"
+    "revision": "18b30979d8159916bae8",
+    "url": "/portfolioPortalReact/static/css/main.e3c13bf4.chunk.css"
   },
   {
-    "revision": "525d4e87a4097f06e8b3",
-    "url": "/portfolioPortalReact/static/js/main.525d4e87.chunk.js"
+    "revision": "18b30979d8159916bae8",
+    "url": "/portfolioPortalReact/static/js/main.18b30979.chunk.js"
   },
   {
-    "revision": "6072603dd33d4e46634e",
-    "url": "/portfolioPortalReact/static/css/1.63e459ef.chunk.css"
+    "revision": "ec2abd7aad9bedadfc33",
+    "url": "/portfolioPortalReact/static/css/1.10af14fd.chunk.css"
   },
   {
-    "revision": "6072603dd33d4e46634e",
-    "url": "/portfolioPortalReact/static/js/1.6072603d.chunk.js"
+    "revision": "ec2abd7aad9bedadfc33",
+    "url": "/portfolioPortalReact/static/js/1.ec2abd7a.chunk.js"
   },
   {
     "revision": "7746465d28bfad5919da",
     "url": "/portfolioPortalReact/static/js/runtime~main.7746465d.js"
+  },
+  {
+    "revision": "7d71cd3c6f498858e16d46c93be57296",
+    "url": "/portfolioPortalReact/static/media/selfimg.7d71cd3c.jpg"
   },
   {
     "revision": "90388f3df85945f8e0e0ed76cf87d538",
@@ -40,10 +44,6 @@ self.__precacheManifest = [
     "url": "/portfolioPortalReact/static/media/sumo.fa6915dd.jpg"
   },
   {
-    "revision": "7d71cd3c6f498858e16d46c93be57296",
-    "url": "/portfolioPortalReact/static/media/selfimg.7d71cd3c.jpg"
-  },
-  {
     "revision": "c1d70be97ad9678a42b412bd6b07c160",
     "url": "/portfolioPortalReact/static/media/Myresumeroughdraft.c1d70be9.docx"
   },
@@ -64,15 +64,15 @@ self.__precacheManifest = [
     "url": "/portfolioPortalReact/static/media/balanced.9180b4e1.png"
   },
   {
-    "revision": "2273d7788c3af6ef0a19bcf199bface0",
-    "url": "/portfolioPortalReact/static/media/sql.2273d778.png"
+    "revision": "3cadeef86049f1c7d509b7ea0e1c8dd4",
+    "url": "/portfolioPortalReact/static/media/WiseGuide-screenshot1.3cadeef8.png"
   },
   {
     "revision": "7dac8e6aa1a2f08de5e163dd2dfae464",
     "url": "/portfolioPortalReact/static/media/mongo.7dac8e6a.png"
   },
   {
-    "revision": "84f42e0849d5d93901ba14de0d6d6c77",
+    "revision": "76fe5e83bfb8f3333346db4200f84383",
     "url": "/portfolioPortalReact/index.html"
   }
 ];
