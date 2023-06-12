@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolioPortalReact/static/css/main.e3c13bf4.chunk.css",
-  "main.js": "/portfolioPortalReact/static/js/main.18b30979.chunk.js",
-  "main.js.map": "/portfolioPortalReact/static/js/main.18b30979.chunk.js.map",
+  "main.js": "/portfolioPortalReact/static/js/main.a3a26781.chunk.js",
+  "main.js.map": "/portfolioPortalReact/static/js/main.a3a26781.chunk.js.map",
   "static/css/1.10af14fd.chunk.css": "/portfolioPortalReact/static/css/1.10af14fd.chunk.css",
   "static/js/1.ec2abd7a.chunk.js": "/portfolioPortalReact/static/js/1.ec2abd7a.chunk.js",
   "static/js/1.ec2abd7a.chunk.js.map": "/portfolioPortalReact/static/js/1.ec2abd7a.chunk.js.map",
@@ -13,7 +13,7 @@
   "static/media/grape.jpg": "/portfolioPortalReact/static/media/grape.19e71df3.jpg",
   "static/media/orders.jpg": "/portfolioPortalReact/static/media/orders.66825ae4.jpg",
   "static/media/sumo.jpg": "/portfolioPortalReact/static/media/sumo.fa6915dd.jpg",
-  "static/media/Myresumeroughdraft.docx": "/portfolioPortalReact/static/media/Myresumeroughdraft.c1d70be9.docx",
+  "static/media/Myresumeroughdraft.pdf": "/portfolioPortalReact/static/media/Myresumeroughdraft.4402c8db.pdf",
   "static/media/project1.png": "/portfolioPortalReact/static/media/project1.819a094b.png",
   "static/media/project2.png": "/portfolioPortalReact/static/media/project2.3d0efd14.png",
   "static/media/revved.png": "/portfolioPortalReact/static/media/revved.7f800222.png",
@@ -23,6 +23,6 @@
   "static/css/main.e3c13bf4.chunk.css.map": "/portfolioPortalReact/static/css/main.e3c13bf4.chunk.css.map",
   "static/css/1.10af14fd.chunk.css.map": "/portfolioPortalReact/static/css/1.10af14fd.chunk.css.map",
   "index.html": "/portfolioPortalReact/index.html",
-  "precache-manifest.ded47a710e91970c90adb77b294e33d0.js": "/portfolioPortalReact/precache-manifest.ded47a710e91970c90adb77b294e33d0.js",
+  "precache-manifest.31f3a910b498f984214526577189a091.js": "/portfolioPortalReact/precache-manifest.31f3a910b498f984214526577189a091.js",
   "service-worker.js": "/portfolioPortalReact/service-worker.js"
 }
