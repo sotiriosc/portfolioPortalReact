@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "a3a26781ce2bdbd50fd2",
-    "url": "/portfolioPortalReact/static/css/main.e3c13bf4.chunk.css"
+    "revision": "2496b03304916f4016ea",
+    "url": "/portfolioPortalReact/static/css/main.60f5e8d8.chunk.css"
   },
   {
-    "revision": "a3a26781ce2bdbd50fd2",
-    "url": "/portfolioPortalReact/static/js/main.a3a26781.chunk.js"
+    "revision": "2496b03304916f4016ea",
+    "url": "/portfolioPortalReact/static/js/main.2496b033.chunk.js"
   },
   {
-    "revision": "ec2abd7aad9bedadfc33",
-    "url": "/portfolioPortalReact/static/css/1.10af14fd.chunk.css"
+    "revision": "d59a5c594ab825e9a829",
+    "url": "/portfolioPortalReact/static/css/1.c815205e.chunk.css"
   },
   {
-    "revision": "ec2abd7aad9bedadfc33",
-    "url": "/portfolioPortalReact/static/js/1.ec2abd7a.chunk.js"
+    "revision": "d59a5c594ab825e9a829",
+    "url": "/portfolioPortalReact/static/js/1.d59a5c59.chunk.js"
   },
   {
     "revision": "7746465d28bfad5919da",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolioPortalReact/static/media/sumo.fa6915dd.jpg"
   },
   {
-    "revision": "4402c8db7c48d0916f43c3fb509d2522",
-    "url": "/portfolioPortalReact/static/media/Myresumeroughdraft.4402c8db.pdf"
+    "revision": "3c1afadb1a3b3e6008a8f32752ec6dbc",
+    "url": "/portfolioPortalReact/static/media/Resume.3c1afadb.pdf"
   },
   {
     "revision": "819a094b588c86949406edcd87682812",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolioPortalReact/static/media/mongo.7dac8e6a.png"
   },
   {
-    "revision": "2300ea7209e89968f2a3beb1cbbc908f",
+    "revision": "cd9e140c2bc78fe47726f5c9ed23c4bd",
     "url": "/portfolioPortalReact/index.html"
   }
 ];
