@@ -1,4 +1,4 @@
-.contact {
+/* .contact {
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -65,7 +65,7 @@
 }
 
 .modal {
-    display: flex !important; /* Add this line */
+    display: flex !important; 
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -109,5 +109,37 @@ input.valid, textarea.valid {
   
   input.invalid, textarea.invalid {
     background-color: lightcoral;
+  }*/
+
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+  }
+  
+  
+  html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .contact {
+    flex-grow: 1;
   }
   
