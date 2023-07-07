@@ -5,7 +5,8 @@ import mango from '../../assets/images/mango.jpg';
 import grape from '../../assets/images/grape.jpg';
 import orders from '../../assets/images/orders.jpg';
 import sumo from '../../assets/images/sumo.jpg';
-import selfimg from '../../assets/images/selfimg.jpg';
+
+import tomato from '../../assets/images/tomato.jpg';
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
         </div>
         <div className='two'>
         <img src={sumo} alt="sumo citrus" className="image4"/>
-        <img src={selfimg} alt="tomato" className="image5"/>
+        <img src={tomato} alt="tomato" className="image5"/>
         <img src={orders} alt="orders" className="image6"/>
         </div>
         </div>

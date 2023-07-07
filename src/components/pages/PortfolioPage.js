@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import project1 from '../../assets/images/project1.png';
+
 import project2 from '../../assets/images/project2.png';
 import project3 from '../../assets/images/revved.png';
 import balanced from '../../assets/images/balanced.png';  
@@ -12,11 +12,11 @@ import '../../styles/PortfolioPage.css'
 export default function MyWork() {
 
   const projects = [
-    {name: "Workout Buddy - HTML, CSS, JAVASCRIPT", img: project1, url: "https://utgroup7.github.io/workout-buddy/", repo: "https://github.com/utgroup7/workout-buddy"},
+    {name: "Mern - AI Tutor" , img: wg, url: "https://wiseguide.herokuapp.com/search", repo: "https://github.com/sotiriosc/wg-studentTutor"},
     {name: "JATE - EXPRESS, JAVASCRIPT" , img: project2, url: "https://glacial-atoll-39751.herokuapp.com/", repo: "https://github.com/sotiriosc/personalTextEditor-PWA"},
     {name: "Revved-Up_reviews - HANDLEBARS, JAVASCRIPT, CSS, SQL" , img: project3, url: "https://protected-meadow-94073.herokuapp.com/", repo: "https://github.com/sotiriosc/Revved-Up_reviews"},
-    {name: "Balanced Blueprint Blog - HTML, JAVASCRIPT, CSS," , img: balanced, url: "https://www.balancedblueprint.ca/", repo: "https://github.com/sotiriosc/balancedblueprintblog"},
-    {name: "Mern - AI Tutor" , img: wg, url: "https://wiseguide.herokuapp.com/search", repo: "https://github.com/sotiriosc/wg-studentTutor"},
+    {name: "Balanced Blueprint Blog - MERN Personal Project" , img: balanced, url: "https://www.balancedblueprint.ca/", repo: "https://github.com/sotiriosc/balancedblueprintblog"},
+    
     {name: "SocialNetworkAPI - MONGODB, EXPRESS JS, NODE" , img: mongo, url: "https://drive.google.com/file/d/1M5j52i_tyNYNYGV5UjPCnJe78XG-G_FW/view?usp=share_link", repo: "https://github.com/sotiriosc/SocialNetworkApi-MongoDB"},
   ];
 

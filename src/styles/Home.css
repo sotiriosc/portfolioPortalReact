@@ -45,7 +45,7 @@
 }
 
 .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover {
-    transform: scale(1.1);
+    transform: scale(2);
 }
 
 
