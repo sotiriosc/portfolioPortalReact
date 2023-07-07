@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "04bd665dfc7832f045de",
+    "revision": "586e1abd8a7c7a3b1dce",
     "url": "/portfolioPortalReact/static/css/main.354fd121.chunk.css"
   },
   {
-    "revision": "04bd665dfc7832f045de",
-    "url": "/portfolioPortalReact/static/js/main.04bd665d.chunk.js"
+    "revision": "586e1abd8a7c7a3b1dce",
+    "url": "/portfolioPortalReact/static/js/main.586e1abd.chunk.js"
   },
   {
-    "revision": "c85b3e4b442ddbf3489a",
+    "revision": "d913e90301b1daa375bb",
     "url": "/portfolioPortalReact/static/css/1.c815205e.chunk.css"
   },
   {
-    "revision": "c85b3e4b442ddbf3489a",
-    "url": "/portfolioPortalReact/static/js/1.c85b3e4b.chunk.js"
+    "revision": "d913e90301b1daa375bb",
+    "url": "/portfolioPortalReact/static/js/1.d913e903.chunk.js"
   },
   {
     "revision": "7746465d28bfad5919da",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolioPortalReact/static/media/mongo.7dac8e6a.png"
   },
   {
-    "revision": "8e4aa2cb3afe5fc0b447ab299d62246a",
+    "revision": "8f330e44d2ebb3efa7449a077b920f9b",
     "url": "/portfolioPortalReact/index.html"
   }
 ];
