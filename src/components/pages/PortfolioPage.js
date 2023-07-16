@@ -12,10 +12,10 @@ import '../../styles/PortfolioPage.css'
 export default function MyWork() {
 
   const projects = [
-    {name: "Mern - AI Tutor" , img: wg, url: "https://wiseguide.herokuapp.com/search", repo: "https://github.com/sotiriosc/wg-studentTutor"},
+    {name: "AI Tutor - M.E.R.N" , img: wg, url: "https://wiseguide.herokuapp.com/search", repo: "https://github.com/sotiriosc/wg-studentTutor"},
     {name: "JATE - EXPRESS, JAVASCRIPT" , img: project2, url: "https://glacial-atoll-39751.herokuapp.com/", repo: "https://github.com/sotiriosc/personalTextEditor-PWA"},
     {name: "Revved-Up_reviews - HANDLEBARS, JAVASCRIPT, CSS, SQL" , img: project3, url: "https://protected-meadow-94073.herokuapp.com/", repo: "https://github.com/sotiriosc/Revved-Up_reviews"},
-    {name: "Balanced Blueprint Blog - MERN Personal Project" , img: balanced, url: "https://www.balancedblueprint.ca/", repo: "https://github.com/sotiriosc/balancedblueprintblog"},
+    {name: "Balanced Blueprint Blog - M.E.R.N Personal Project" , img: balanced, url: "https://www.balancedblueprint.ca/", repo: "https://github.com/sotiriosc/balancedblueprintblog"},
     
     {name: "SocialNetworkAPI - MONGODB, EXPRESS JS, NODE" , img: mongo, url: "https://drive.google.com/file/d/1M5j52i_tyNYNYGV5UjPCnJe78XG-G_FW/view?usp=share_link", repo: "https://github.com/sotiriosc/SocialNetworkApi-MongoDB"},
   ];
@@ -37,6 +37,10 @@ export default function MyWork() {
         <p className='ptag'>Use the carousel below to browse through my projects. If a project piques your interest, simply click on the image to visit the project site. Want a peek under the hood? Click the button beneath the carousel to access the repository of any project.
 
 Enjoy exploring, and don't hesitate to reach out if you have any questions!</p>
+
+<a href={selectedProject.repo} target="_blank" rel="noopener noreferrer">
+          <button className='repoBtn'>Go to Repository</button>
+        </a>
      
       
       <div>
@@ -62,11 +66,6 @@ Enjoy exploring, and don't hesitate to reach out if you have any questions!</p>
             </div>
           ))}
         </Carousel>
-
-        <a href={selectedProject.repo} target="_blank" rel="noopener noreferrer">
-          <button className='repoBtn'>Go to Repository</button>
-        </a>
-    
         </div>
       </div>
     </>

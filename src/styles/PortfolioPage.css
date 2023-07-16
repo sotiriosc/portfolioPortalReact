@@ -38,12 +38,14 @@
 }
 
 .repoBtn {
-  background-color: rgb(255, 209, 69); 
+  background-color: rgb(245, 164, 13);
     cursor: pointer;
     border: black 2px solid;
     border-radius: 90px;
     color: white;
     font-weight: bolder;
+   
+  
 }
 
 .carousel .slide .legend {
