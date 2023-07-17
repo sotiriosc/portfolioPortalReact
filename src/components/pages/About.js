@@ -3,10 +3,9 @@ import '../../styles/Home.css';
 import mysql from '../../assets/images/mysql.png';
 import css from '../../assets/images/702306.png';
 import js from '../../assets/images/js.png';
-import orders from '../../assets/images/orders.jpg';
 import mern from '../../assets/images/MERN.webp';
 import html from '../../assets/images/html.png';
-import tomato from '../../assets/images/tomato.jpg';
+
 
 export default function Home() {
   return (

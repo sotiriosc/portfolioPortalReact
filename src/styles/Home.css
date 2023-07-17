@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .home {
     margin: 10px;
     display: flex;
@@ -8,9 +12,11 @@
 .h2Title {
     margin-left: 160px;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 .h1Title {
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 .welcome {
     display: flex;
@@ -57,10 +63,11 @@
 }
 
 .big {
-    font-size: larger;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: bolder;
     margin-left: 100px;
     margin-top: 120px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
  @media (max-width: 600px) { 
@@ -73,6 +80,9 @@
     }
     .h2Title {
         display: none;
+    }
+    .h1Title {
+        margin-top: 30px;
     }
     .image1, .image2, .image3, .image5, .image6 {
         width: 60px; 
@@ -101,6 +111,11 @@
     p {
         width: 100%;
       }
+    .big {
+        font-size: 1.0rem;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
     
 }
 
@@ -115,15 +130,20 @@
     .one {
         justify-content: center;
         display: flex;
-        margin: 0px
+        margin: 0px;
+        margin-top: 40px;
     }
     .two {
         justify-content: center;
         display: flex;
-        margin: 0px}
+        margin-bottom: 40px;
+    }
     .h2Title {
         display: none;
         
+    }
+    .h1Title {
+        margin-top: 30px;
     }
     .image1, .image2, .image3, .image5, .image6 {
     width: 60px; 
@@ -141,6 +161,11 @@
     p {
         width: 100%;
       }
+      .big {
+        font-size: 1.0rem;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
   
 }
 
@@ -164,6 +189,7 @@
     width: 70%;
     margin: auto;  
     margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
