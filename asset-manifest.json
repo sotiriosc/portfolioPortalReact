@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolioPortalReact/static/css/main.b1b25a3c.chunk.css",
-  "main.js": "/portfolioPortalReact/static/js/main.6e08acca.chunk.js",
-  "main.js.map": "/portfolioPortalReact/static/js/main.6e08acca.chunk.js.map",
+  "main.css": "/portfolioPortalReact/static/css/main.a1f6f968.chunk.css",
+  "main.js": "/portfolioPortalReact/static/js/main.581fb63d.chunk.js",
+  "main.js.map": "/portfolioPortalReact/static/js/main.581fb63d.chunk.js.map",
   "static/css/1.1c8a3f93.chunk.css": "/portfolioPortalReact/static/css/1.1c8a3f93.chunk.css",
   "static/js/1.76ec46ea.chunk.js": "/portfolioPortalReact/static/js/1.76ec46ea.chunk.js",
   "static/js/1.76ec46ea.chunk.js.map": "/portfolioPortalReact/static/js/1.76ec46ea.chunk.js.map",
@@ -18,9 +18,10 @@
   "static/media/balanced.png": "/portfolioPortalReact/static/media/balanced.9180b4e1.png",
   "static/media/WiseGuide-screenshot1.png": "/portfolioPortalReact/static/media/WiseGuide-screenshot1.3cadeef8.png",
   "static/media/mongo.png": "/portfolioPortalReact/static/media/mongo.7dac8e6a.png",
-  "static/css/main.b1b25a3c.chunk.css.map": "/portfolioPortalReact/static/css/main.b1b25a3c.chunk.css.map",
+  "static/media/NavTab.css": "/portfolioPortalReact/static/media/navBg.42a6eec5.jpg",
   "static/css/1.1c8a3f93.chunk.css.map": "/portfolioPortalReact/static/css/1.1c8a3f93.chunk.css.map",
+  "static/css/main.a1f6f968.chunk.css.map": "/portfolioPortalReact/static/css/main.a1f6f968.chunk.css.map",
   "index.html": "/portfolioPortalReact/index.html",
-  "precache-manifest.5f9f814d424cb0982b3d78d474643155.js": "/portfolioPortalReact/precache-manifest.5f9f814d424cb0982b3d78d474643155.js",
+  "precache-manifest.64cb09cc617fa674c683e03e9701d2cd.js": "/portfolioPortalReact/precache-manifest.64cb09cc617fa674c683e03e9701d2cd.js",
   "service-worker.js": "/portfolioPortalReact/service-worker.js"
 }
