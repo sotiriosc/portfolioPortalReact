@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import selfimg from '../assets/images/selfimg.jpg';
 import '../styles/NavTab.css';
 
+
 function NavTabs({ currentPage, handlePageChange }) {
   const [nameLetters, setNameLetters] = useState([]);
   const name = 'Sotirios Chortogiannos';

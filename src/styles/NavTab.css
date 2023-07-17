@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia&effect=neon|fire|emboss|shadow-multiple');
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
+
 .header {
     display: flex;
     justify-content: space-between; 
     height: 150px;
-    background-color: rgb(26, 59, 129);
+    background-image: url('../assets/images/navBg.jpg');
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
@@ -30,7 +31,7 @@
   .pageBtn {
     display: flex;
     align-items: baseline;
-    background-color: rgb(245, 164, 13);
+    background-color: rgb(241, 21, 205);
     padding: 5px;
     border-radius: 90px;;
     border: black 2px solid;
@@ -42,7 +43,7 @@
   }
 
   .pageBtn:hover {
-    background-color: rgb(255, 209, 69); 
+    background-color: rgb(233, 69, 255); 
     cursor: pointer;
   }
   
@@ -58,7 +59,7 @@
   .myName {
     margin-left: 50px;
     font-family: 'times', neon;
-    text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #060606, 0 0 0.4em rgb(74, 149, 230), 0 0 0.6em rgb(16, 63, 138), 0 0 0.8em rgb(32, 32, 162), 0 0 1.0em rgb(25, 18, 175), 0 0 1.2em #00f, 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 5px rgb(162, 0, 255), 0 0 10px rgb(255, 0, 255), 0 0 15px rgb(140, 0, 255), 0 0 20px rgb(225, 0, 255), 0 0 25px rgb(153, 0, 255), 0 0 30px rgb(224, 14, 243), 0 0 35px rgb(241, 21, 205);
     color: #fff;
     font-size: 4.5rem; 
     opacity: 0;
@@ -74,6 +75,7 @@
     position: absolute;
     animation: float 7s infinite linear;
     font-weight: bolder;
+    color: rgb(255, 209, 69);
   }
   
   @keyframes float {
@@ -146,6 +148,6 @@
   }
 
   .pageBtn.active {
-    background-color: rgb(132, 167, 243);
+    background-color: rgb(162, 0, 255);
     /* Additional styles for active .pageBtn */
   }
