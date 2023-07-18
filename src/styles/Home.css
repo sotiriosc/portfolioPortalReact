@@ -179,7 +179,9 @@ body {
 }
 
 .firstSec p:hover {
-    background-color: #f0f0f0;
+    color: rgb(255, 255, 255);
+    background-color: #030303;
+    
 }
 
 .aboutPar p {
@@ -194,5 +196,7 @@ body {
 
 
 .aboutPar p:hover {
-    background-color: #f0f0f0;
+    color: rgb(255, 255, 255) ;
+    background-color: #030303;
 }
+
