@@ -59,7 +59,7 @@
   .myName {
     margin-left: 50px;
     font-family: 'times', neon;
-    text-shadow: 0 0 5px rgb(162, 0, 255), 0 0 10px rgb(255, 0, 255), 0 0 15px rgb(140, 0, 255), 0 0 20px rgb(225, 0, 255), 0 0 25px rgb(153, 0, 255), 0 0 30px rgb(224, 14, 243), 0 0 35px rgb(241, 21, 205);
+    text-shadow: 0 0 10px rgb(162, 0, 255), 0 0 15px rgb(255, 0, 255), 0 0 20px rgb(140, 0, 255), 0 0 25px rgb(225, 0, 255), 0 0 30px rgb(153, 0, 255), 0 0 35px rgb(224, 14, 243), 0 0 40px rgb(241, 21, 205);
     color: #fff;
     font-size: 4.5rem; 
     opacity: 0;
