@@ -50,6 +50,7 @@ Enjoy exploring, and don't hesitate to reach out if you have any questions!</p>
   emulateTouch={true}
   infiniteLoop={true}
   useKeyboardArrows={true}
+  showThumbs={false}
   labels={{
     leftArrow: 'Previous slide',
     rightArrow: 'Next slide',
