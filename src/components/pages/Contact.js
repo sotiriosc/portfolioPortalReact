@@ -16,14 +16,17 @@ export default function Contact() {
 
   return (
     <div className='contact'>
-      <iframe 
-        src="https://docs.google.com/forms/d/e/1FAIpQLSeg5wh1PDr0DnPFmPd1e36BzgztCDDlMziEtIK8VHSYFF1LGw/viewform?usp=pp_url"
-        style={{ width: '100%', height: `${height}px`, border: '0', overflow: 'hidden' }}
-        scrolling="yes"
-        title="Contact Form"
-      >
-        Loading…
-      </iframe>
+  <iframe 
+  src="https://docs.google.com/forms/d/e/1FAIpQLSeg5wh1PDr0DnPFmPd1e36BzgztCDDlMziEtIK8VHSYFF1LGw/viewform?embedded=true"  
+  style={{ width: '100%', height: `${height}px`, border: '0', overflow: 'hidden' }}
+  scrolling="yes"
+  title="Contact Form"
+>
+  Loading…
+</iframe>
+
     </div>
   );
 }
+
+

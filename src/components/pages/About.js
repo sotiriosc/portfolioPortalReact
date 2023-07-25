@@ -15,12 +15,12 @@ export default function Home() {
       </div>
       <div className='firstSec'>
         
-      <div style={{ width: '50%', '@media (max-width: 600px)': { width: '100%' } }}>
+      <div style={{ width: '50%', '@media (maxwidth: 600px)': { width: '100%' } }}>
           <h3 className='h1Title'>Strengths:</h3>
           <p className='big'>Creative thinking, empathetic, analytical, curious, passion for learning, self motivated/aware, service oriented, cooperative, intuitive, enthusiastic, good attitude.</p>
           
         </div>
-        <div style={{ width: '40%', '@media (max-width: 600px)': { width: '100%' } }}>
+        <div style={{ width: '40%', '@media (maxwidth: 600px)': { width: '100%' } }}>
         <div className='one'>
         <img src={html} alt="HTML" className="image1"/>
         <img src={css} alt="CSS" className="image2"/>
