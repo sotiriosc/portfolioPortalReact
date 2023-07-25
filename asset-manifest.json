@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolioPortalReact/static/css/main.cdd1a04d.chunk.css",
-  "main.js": "/portfolioPortalReact/static/js/main.4faddd63.chunk.js",
-  "main.js.map": "/portfolioPortalReact/static/js/main.4faddd63.chunk.js.map",
+  "main.js": "/portfolioPortalReact/static/js/main.099a35a5.chunk.js",
+  "main.js.map": "/portfolioPortalReact/static/js/main.099a35a5.chunk.js.map",
   "static/css/1.1c8a3f93.chunk.css": "/portfolioPortalReact/static/css/1.1c8a3f93.chunk.css",
   "static/js/1.76ec46ea.chunk.js": "/portfolioPortalReact/static/js/1.76ec46ea.chunk.js",
   "static/js/1.76ec46ea.chunk.js.map": "/portfolioPortalReact/static/js/1.76ec46ea.chunk.js.map",
@@ -22,6 +22,6 @@
   "static/css/main.cdd1a04d.chunk.css.map": "/portfolioPortalReact/static/css/main.cdd1a04d.chunk.css.map",
   "static/css/1.1c8a3f93.chunk.css.map": "/portfolioPortalReact/static/css/1.1c8a3f93.chunk.css.map",
   "index.html": "/portfolioPortalReact/index.html",
-  "precache-manifest.2810f2fc90d37058521a79e57690197c.js": "/portfolioPortalReact/precache-manifest.2810f2fc90d37058521a79e57690197c.js",
+  "precache-manifest.32fa8a94846c9fe54579d0c283621cfe.js": "/portfolioPortalReact/precache-manifest.32fa8a94846c9fe54579d0c283621cfe.js",
   "service-worker.js": "/portfolioPortalReact/service-worker.js"
 }
