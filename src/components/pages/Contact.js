@@ -19,7 +19,7 @@ export default function Contact() {
   <iframe 
   src="https://docs.google.com/forms/d/e/1FAIpQLSeg5wh1PDr0DnPFmPd1e36BzgztCDDlMziEtIK8VHSYFF1LGw/viewform?embedded=true"  
   style={{ width: '100%', height: `${height}px`, border: '0', overflow: 'hidden' }}
-  scrolling="no"
+  scrolling="yes"
   title="Contact Form"
 >
   Loading…
